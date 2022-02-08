@@ -6,7 +6,7 @@
     <title>$title$</title>
     <authors>Jon Cederqvist</authors>
     <owners>$author$</owners>
-    <projectUrl>https://github.com/DirektChark/ModbusDirektCore</projectUrl>
+    <projectUrl>https://github.com/DirektChark/ModbusDirektConnect</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Initial release</releaseNotes>

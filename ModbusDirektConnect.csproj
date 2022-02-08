@@ -11,7 +11,7 @@
     <Product>ModbusDirekt</Product>
     <Description>Modbus client library for .NET Core</Description>
     <RootNamespace>ModbusDirekt</RootNamespace>
-    <AssemblyName>ModbusDirektCore</AssemblyName>
+    <AssemblyName>ModbusDirektConnect</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
