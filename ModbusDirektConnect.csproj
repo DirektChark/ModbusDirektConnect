@@ -5,13 +5,14 @@
     <ApplicationIcon />
     <Win32Resource />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Jon Cederqvist</Authors>
     <Company>Direkt Chark AB</Company>
     <Product>ModbusDirekt</Product>
-    <Description>Modbus client library for .NET Core</Description>
+    <Description>Modbus client library for .NET</Description>
     <RootNamespace>ModbusDirekt</RootNamespace>
     <AssemblyName>ModbusDirektConnect</AssemblyName>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

@@ -32,6 +32,7 @@ namespace ModbusDirekt.Modbus.Channel
         {
             return mbapBytes;
 
+/*
             return new byte[]
             {
                 this.TransactionIdentifierByte[1],
@@ -41,7 +42,7 @@ namespace ModbusDirekt.Modbus.Channel
                 this.LengthByte[1],
                 this.LengthByte[0],
                 UnitIdentifierByte
-            };
+            };*/
 
         }
 

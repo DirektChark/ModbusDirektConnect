@@ -5,11 +5,13 @@
     <version>$version$</version>
     <title>$title$</title>
     <authors>Jon Cederqvist</authors>
-    <owners>$author$</owners>
+    <owners>Direkt Chark AB</owners>
     <projectUrl>https://github.com/DirektChark/ModbusDirektConnect</projectUrl>
+    <repository url="https://github.com/DirektChark/ModbusDirektConnect"/>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes></releaseNotes>
     <copyright>Copyright 2019</copyright>
+    <license type="Expression">MIT</license>
   </metadata>
 </package>

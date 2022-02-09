@@ -10,6 +10,6 @@ namespace ModbusDirekt
     public interface IModbusClient
     {
         void Disconnect();
-        InputRegisters ReadInputRegisters(int v1, int v2);
+        InputRegisters ReadInputRegisters(int startingAddress, int count);
     }
 }

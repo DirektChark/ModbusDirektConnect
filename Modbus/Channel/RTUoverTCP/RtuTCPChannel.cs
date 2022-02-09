@@ -27,7 +27,7 @@ namespace ModbusDirekt.Modbus.Channel
         {
             if (pdu.Length > 253) throw new ArgumentOutOfRangeException("pdu", "Modbus RTU limits PDU size to 253 bytes.");
 
-            if (!tcpClient.Connected)
+            if (tcpClient == null || !tcpClient.Connected)
             {
                 Connect();
             }
