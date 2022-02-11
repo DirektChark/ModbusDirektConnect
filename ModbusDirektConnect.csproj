@@ -12,8 +12,12 @@
     <Description>Modbus client library for .NET</Description>
     <RootNamespace>ModbusDirekt</RootNamespace>
     <AssemblyName>ModbusDirektConnect</AssemblyName>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    
   </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>out</OutputPath>
