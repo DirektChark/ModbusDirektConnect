@@ -1,4 +1,5 @@
-﻿## ModbusDC
+﻿![dotnet](https://github.com/DirektChark/ModbusDirektConnect/actions/workflows/dotnet.yml/badge.svg)
+ ## ModbusDC
 
 ModbusDC is a communication library for the modbus protocol.
 
